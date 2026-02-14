@@ -1,4 +1,4 @@
-import type {Config} from 'tailwindcss';
+import type { Config } from 'tailwindcss';
 
 export default {
   darkMode: ['class'],
@@ -14,8 +14,14 @@ export default {
         headline: ['Playfair Display', 'serif'],
         love: ['Playfair Display', 'serif'],
         code: ['monospace'],
+        orbitron: ['var(--font-orbitron)'],
+        rajdhani: ['var(--font-rajdhani)'],
       },
       colors: {
+        'pagani-black': '#1a1a1a',
+        'pagani-gold': '#D4AF37',
+        'bright-gold': '#FFD700',
+        'carbon-gray': '#2a2a2a',
         romantic: '#ff2e63',
         softpink: '#ff6b9d',
         deepred: '#c9184a',

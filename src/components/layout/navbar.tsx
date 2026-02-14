@@ -10,7 +10,7 @@ const navLinks = [
   { href: "/reasons", label: "Reasons" },
   { href: "/memory", label: "Memories" },
   { href: "/proposal", label: "Proposal" },
-  { href: "/admin", label: "Admin" },
+  
 ];
 
 export function Navbar() {

@@ -6,24 +6,30 @@ import Image from "next/image";
 
 const steps = [
   {
-    img: "/proposal/step1.gif",
-    title: "Manja na! Kitna bhav khaegi 😭",
-    subtitle: "bht glt baat hai 😤",
+    img: "/proposal/step1.mp4",
+    title: "Do you love me? 🥺",
+    subtitle: "Lucky tera hi hai 😌",
+   
+    
   },
   {
-    img: "/proposal/step2.gif",
-    title: "Ek aur baar Soch le! 😣",
-    subtitle: "kyu aisa kr rahi hai 🥺",
-  },
-  {
-    img: "/proposal/step3.gif",
+    img: "/proposal/step2.mp4",
+    
     title: "Soch le ache se! 😳",
     subtitle: "itte jldi mt bol 🥹",
   },
   {
-    img: "/proposal/step4.gif",
-    title: "Do you love me? 🥺",
-    subtitle: "Lucky tera hi hai 😌",
+    img: "/proposal/step3.mp4",
+    
+    
+     title: "Ek aur baar Soch le! 😣",
+    subtitle: "kyu aisa kr rahi hai 🥺",
+  },
+  {
+    img: "/proposal/step4.mp4",
+    
+    title: "Manja na! Kitna bhav khaegi 😭",
+    subtitle: "bht glt baat hai 😤",
   },
 ];
 
@@ -54,15 +60,15 @@ export default function ProposalPage() {
             transition={{ duration: 0.4 }}
             className="bg-white/70 backdrop-blur-xl rounded-3xl p-8 shadow-2xl max-w-md w-full"
           >
-            {/* IMAGE */}
+            {/* VIDEO */}
             <div className="flex justify-center mb-6">
-              <Image
+              <video
                 src={steps[step].img}
-                alt="cute"
-                width={200}
-                height={200}
-                className="rounded-2xl"
-                unoptimized
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="rounded-2xl w-[200px] h-[200px] object-cover"
               />
             </div>
 
@@ -103,12 +109,13 @@ export default function ProposalPage() {
             className="text-center"
           >
             <div className="flex justify-center mb-6">
-              <Image
-                src="/proposal/final.gif"
-                alt="love"
-                width={220}
-                height={220}
-                unoptimized
+              <video
+                src="/proposal/final.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="rounded-2xl w-[220px] h-[220px] object-cover"
               />
             </div>
 
