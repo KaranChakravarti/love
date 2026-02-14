@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-wallpaper",
+      "description": "Romantic wallpaper for the hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1556229868-7b2d4b56b909?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb21hbnRpYyUyMGNvdXBsZXxlbnwwfHx8fDE3NzEwMTYzNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "romantic couple"
+    }
+  ]
+}
