@@ -30,18 +30,18 @@ export default function ZondaExperience({ scrollYProgress }: ZondaExperienceProp
         className="text-center w-full max-w-4xl flex flex-col items-center justify-center h-full"
       >
         <h1 className="text-6xl md:text-9xl font-bold font-orbitron tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 mb-4 drop-shadow-2xl uppercase">
-          Pagani Zonda R
+          PYARI MADAM JI
         </h1>
         <div className="w-24 h-1 bg-pagani-gold mb-8 shadow-[0_0_15px_rgba(212,175,55,0.5)]" />
         
         <div className="grid grid-cols-2 gap-8 md:gap-16 font-rajdhani text-xl md:text-2xl tracking-widest text-gray-300">
           <div className="flex flex-col items-end border-r border-white/20 pr-8">
             <span className="text-pagani-gold text-sm font-semibold mb-1">PRICE</span>
-            <span className="text-3xl font-bold text-white">€1.5M</span>
+            <span className="text-3xl font-bold text-white">€∞</span>
           </div>
           <div className="flex flex-col items-start pl-8">
              <span className="text-pagani-gold text-sm font-semibold mb-1">AVAILABILITY</span>
-             <span className="text-3xl font-bold text-white">INQUIRE</span>
+             <span className="text-3xl font-bold text-white">Killer Eye</span>
           </div>
         </div>
       </motion.div>
