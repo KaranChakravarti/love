@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Navbar } from '@/components/layout/navbar';
 import { Orbitron, Rajdhani } from 'next/font/google';
+import SmoothScroll from "@/components/SmoothScroll";
 
 const orbitron = Orbitron({ 
   subsets: ['latin'],
@@ -36,9 +37,11 @@ export default function RootLayout({
         />
       </head>
       <body className={`font-love antialiased ${orbitron.variable} ${rajdhani.variable}`}>
+        <SmoothScroll>
         <Navbar />
         {children}
         <Toaster />
+        </SmoothScroll>
       </body>
     </html>
   );
